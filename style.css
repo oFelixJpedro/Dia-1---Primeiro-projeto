@@ -1,0 +1,113 @@
+body{
+    font-family: 'Hanken Grotesk', sans-serif;;
+}
+
+#result{
+    width: 25%;
+    height: 450px;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 10%;
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    margin: 0;
+    
+}
+
+#circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    margin: 15px;
+}
+
+#body{
+    width: 730px;
+    height: 465px;
+    background-color:  hsl(0, 0%, 100%);
+    box-shadow: 5px 5px 100px black;
+    border-radius: 10%;
+    position: absolute;
+    left: 25%;    
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+#subtitle{
+    position: absolute;
+    left: 55%;  
+    top: 2%; 
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+#reaction{
+    width: 300px;
+    height: 50px;
+    background-color: hsl(0, 100%, 67%, 0.2);
+    position: fixed;
+    left: 54%;
+    top: 16%;
+    border-radius: 50px;
+    cursor: pointer;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+#memory{
+    width: 300px;
+    height: 50px;  
+    background-color: hsl(39, 100%, 56%, 0.2);  
+    position: fixed;
+    left: 54%;
+    top: 27%;
+    border-radius: 50px;
+    cursor: pointer;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+#verbal{
+    width: 300px;
+    height: 50px;
+    background-color: hsl(166, 100%, 37%, 0.2);
+    position: fixed;
+    left: 54%;
+    top: 38%;
+    border-radius: 50px;
+    cursor: pointer;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+#visual{
+    width: 300px;
+    height: 50px;
+    background-color: hsl(234, 85%, 45%, 0.2);
+    position: fixed;
+    left: 54%;
+    top: 49%;
+    border-radius: 50px;
+    cursor: pointer;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+#buttom{
+    width: 300px;
+    height: 50px;
+    background-color: hsl(224, 30%, 27%);
+    position: fixed;
+    left: 54%;
+    top: 60%;
+    border-radius: 50px;
+    cursor: pointer;
+    padding-right: 0px;
+    margin-right: 0px;
+}
